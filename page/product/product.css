@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eaeaea;
+  color: #252525;
+  font-family: "Inter", sans-serif;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.product {
+  font-size: 54px;
+  letter-spacing: 5.4px;
+  margin-top: 100px;
+  text-align: center;
+}
+.baby {
+  margin-top: 50px;
+  font-size: 54px;
+  font-weight: 500;
+  margin-left: 190px;
+}
+
+.image {
+  margin-left: 190px;
+  width: 73%;
+  height: 590px;
+  margin-top: 50px;
+}
+.help {
+  font-size: 32px;
+  letter-spacing: 3.2px;
+  margin-left: 190px;
+  width: 70%;
+  padding-top: 35px;
+}
+.baby1 {
+  margin-top: 50px;
+  font-size: 54px;
+  font-weight: 500;
+  margin-left: 220px;
+}
+.month-and-size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+table {
+  width: 70%;
+  height: 500px;
+  border-spacing: 0;
+}
+tr,
+th,
+td {
+  width: 50%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 600;
+}
+th {
+  font-weight: 700;
+}
+tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+.bold {
+  font-size: 48px;
+  margin-left: 102px;
+  margin-top: 90px;
+  line-height: 65px;
+  letter-spacing: 4.8px;
+  text-align: center;
+    margin-bottom: 100px;
+}
+@media (max-width: 1000px) {
+  .product {
+    font-size: 48px;
+    letter-spacing: 4.8px;
+    margin-left: 0px;
+  }
+  .baby {
+    font-size: 48px;
+    margin-left: 110px;
+  }
+
+  .image {
+    margin-left: 110px;
+    width: 79%;
+  }
+  .help {
+    font-size: 24px;
+    letter-spacing: 2.4px;
+    margin-left: 110px;
+  }
+  .baby1 {
+    font-size: 48px;
+    margin-left: 120px;
+  }
+
+  table {
+    width: 80%;
+  }
+  .bold {
+    font-size: 40px;
+    margin-left: 10px;
+    letter-spacing: 4px;
+  }
+}
+@media (max-width: 800px) {
+  .product {
+    font-size: 40px;
+    letter-spacing: 4px;
+    margin-left: 50px;
+  }
+  .baby {
+    font-size: 40px;
+    margin-left: 70px;
+  }
+
+  .image {
+    margin-left: 70px;
+    height: 300px;
+    width: 80%;
+  }
+  .help {
+    font-size: 24px;
+    letter-spacing: 2.4px;
+    margin-left: 70px;
+  }
+  .baby1 {
+    font-size: 40px;
+    margin-left: 100px;
+  }
+  .bold {
+    font-size: 32px;
+    margin-left: 10px;
+    letter-spacing: 3.2px;
+  }
+}
+@media (max-width: 700px) {
+  .product {
+    font-size: 24px;
+    letter-spacing: 2.4px;
+    margin-left: 20px;
+  }
+  .baby {
+    font-size: 32px;
+    margin-left: 38px;
+    margin-top: 30px ;
+  }
+
+  .image {
+    margin-left: 38px;
+    margin-top: 30px;
+    width: 80%;
+    height: 230px;
+  }
+  .help {
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    margin-left: 38px;
+    padding-top: 25px;
+    width: 81%;
+  }
+  .baby1 {
+    font-size: 32px;
+    margin-left: 38px;
+    margin-top: 60px;
+  }
+  .bold {
+    font-size: 24px;
+    margin-left: 38px;
+    width: 81%;
+    letter-spacing: 2.4px;
+    line-height: 40px;
+    }
+}

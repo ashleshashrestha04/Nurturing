@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eaeaea;
+    color: #252525;
+    font-family: "Inter", sans-serif;
+}
+.left-part{
+    width: 100%;
+}
+.first-part{
+    margin: 100px 0 100px 165px;
+    width: 75%;
+    font-size: 24px;
+    letter-spacing: 2.4px;
+    line-height: 45px;
+    color: #252525;
+}
+.second-part{
+    margin-left: 165px;
+    display: flex;
+    margin-bottom: 100px;
+    gap: 85px;
+}
+.image{
+    background-color: #eaeaea;
+    width: 100% ;
+    height: 450px;
+}
+.right-para{
+    margin-top: 65px;
+    font-size: 32px;
+    line-height: 70px;
+    letter-spacing: 3.2px;
+    font-weight: 700;
+    width: 80%;
+}
+.learn-more{
+    width: 50%;
+    background-color: #B5BDBB;
+    text-transform: uppercase;
+    text-align: center;
+    height: 80px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    letter-spacing: 3.5px;
+    font-weight: normal;
+    border-radius: 5px;
+    margin-top: 92px;
+
+}
+@media (max-width: 1350px){
+    .first-part, .second-part{
+        margin: 100px 80px;
+    }
+    .first-part{
+        width: 90%;
+    }
+    .right-para{
+        width: 100%;
+    }
+}
+@media (max-width: 1000px){
+    .right-para{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .learn-more{
+        width: 80%;
+    }
+}
+@media (max-width: 1200px){
+    .learn-more{
+        width: 60%;
+    }
+}
+@media (max-width: 950px){
+    .first-part{
+        width: 85%;
+    }
+    .second-part{
+        flex-direction: column;
+    }
+    .image{
+        height: 500px;
+    }
+}
+@media (max-width: 700px){
+    .first-part{
+        font-size: 16px;
+        line-height: 40px;
+        letter-spacing: 1.6px;
+        color: #252525;
+        margin-left: 38px;
+        width: 80%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .second-part{
+        margin: 0 38px 100px 38px;
+        gap: 0;
+    }
+    .image{
+        height: 300px;
+    }
+    .right-para{
+        font-size: 24px;
+        letter-spacing: 2.4px;
+        line-height: 40px;
+        margin-top: 25px;
+    }
+    .learn-more{
+        margin-top: 25px;
+        font-size: 18px;
+        letter-spacing: 1.8px;
+        height: 45px;
+    }
+}
